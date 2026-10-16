@@ -1,0 +1,19 @@
+{
+  "name": "pump",
+  "author": "neohertz",
+  "kind": "fx",
+  "symbol": "FX_pump",
+  "sources": [
+    "pump.c"
+  ],
+  "defaults": [
+    24576,
+    0,
+    3000,
+    24576
+  ],
+  "screen": {
+    "svg": "pump.svg",
+    "symbol": "SCREEN_pump"
+  }
+}

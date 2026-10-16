@@ -11,3 +11,4 @@ synth_sdk/third_party/
 synth_sdk/clouds_ref/
 __pycache__/
 *.pyc
+.DS_Store

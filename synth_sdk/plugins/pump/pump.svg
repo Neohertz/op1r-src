@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320px" height="160px" viewBox="0 0 320 160">
+  <!-- Minimal OP-1 style frame: all changing motion is drawn by pump_screen_update. -->
+  <path d="M16 18 H304 V132 H16 Z" fill="none" stroke="#6F7173" stroke-width="1.5"/>
+  <path d="M16 24 H304 M16 128 H304" fill="none" stroke="#6F7173" stroke-width="1"/>
+
+  <!-- Top signal path motif. -->
+  <path d="M26 20 H48 L53 15 L58 25 L63 20 H83" fill="none" stroke="#00ED95" stroke-width="1.5"/>
+  <circle cx="26" cy="20" r="2" fill="#4D9EFF"/>
+  <circle cx="83" cy="20" r="2" fill="#FF3A5D"/>
+  <path d="M101 25 V15 H106 Q111 15 111 19 Q111 23 106 23 H101 M116 15 V21 Q116 25 121 25 Q126 25 126 21 V15 M131 25 V15 L137 21 L143 15 V25 M148 25 V15 H153 Q158 15 158 19 Q158 23 153 23 H148" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M244 16 V24 M250 18 V22 M256 16 V24 M262 18 V22 M268 16 V24 M274 18 V22 M280 16 V24 M286 18 V22 M292 16 V24" fill="none" stroke="#6F7173" stroke-width="1"/>
+
+  <!-- Gain graph and level references. -->
+  <path d="M24 32 H296 V112 H24 Z" fill="none" stroke="#6F7173" stroke-width="1"/>
+  <path d="M24 52 H296 M24 72 H296 M24 92 H296" fill="none" stroke="#6F7173" stroke-width="0.7"/>
+  <path d="M24 40 H296" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M24 112 H296" fill="none" stroke="#6F7173" stroke-width="1"/>
+
+  <!-- Small corner marks make the graph read like a compact instrument display. -->
+  <path d="M20 36 V44 M20 36 H28 M300 36 V44 M292 36 H300 M20 100 V108 M20 108 H28 M300 100 V108 M292 108 H300" fill="none" stroke="#4D9EFF" stroke-width="1"/>
+
+  <!-- Four parameter meter tracks at the bottom, matching the physical knobs. -->
+  <path d="M24 145 H84 M92 145 H152 M160 145 H220 M228 145 H288" fill="none" stroke="#6F7173" stroke-width="1"/>
+  <circle cx="24" cy="145" r="2" fill="#4D9EFF"/>
+  <circle cx="92" cy="145" r="2" fill="#00ED95"/>
+  <circle cx="160" cy="145" r="2" fill="#FFFFFF"/>
+  <circle cx="228" cy="145" r="2" fill="#FF3A5D"/>
+</svg>
